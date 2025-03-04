@@ -11,22 +11,12 @@ Applying machine learning to predict urban heat island (UHI) hotspots in NYC and
 **Visualization:** 
 
 ## Project Structure
-urban-heat-island-prediction
-
-data                # Dataset (CSV & TIFF format)
-
-notebooks           # Jupyter notebooks for EDA & modeling
-
-models              # Saved models and weights
-
-src                 # Source code for data processing & ML models
-
-train_model.py      # Training script
-
-requirements.txt    # Dependencies
-
-README.md           # Project documentation
-
+    .
+    ├── data                   # Dataset (CSV & TIFF format)
+    ├── notebooks              # Jupyter notebooks for EDA & modeling
+    ├── src                    # Source code for data processing & ML models
+    └── README.md              # Project documentation
+    
 
 ## Dataset Used
 #### Target Dataset: 
@@ -44,16 +34,30 @@ Local weather data for July 24, 2021
 
 ## Methodologies
 **EDA:** Correlation Analysis, Heatmap
+
 **Feature Engineering:**
+
 We combined ... and ... to derive the NVBI __ value to determine___
 
 **Machine Learning Model:** XGBoost / Random Forest
+
 **Hyperparameter Tuning:** GridSearch 
+
+To optimize the performance of the Random Forest model, multiple hyperparameter configurations were tested. The main parameter adjusted was n_estimators, which determines the number of trees in the forest. The results of these experiments are summarized below:
+
+| Model Used |  Parameters  | Feature Selection | Results |
+|:-----------|:-----------:|---------------------:|------:|
+| Random Forest  | n_estimators=100, random_state=42 | B01, B06, B08, NDVI, Landsat_LST,lst_anomaly | 0.7429 |
+| Random Forest  | n_estimators=500, random_state=42 | B01, B06, B08, NDVI, Landsat_LST,lst_anomaly | 0.7476 |
+| Random Forest  | n_estimators=1000, random_state=42 | B01, B06, B08, NDVI, Landsat_LST,lst_anomaly | 0.7489 |
+
 
 
 ## Evaluation Metrics
 The model will be assessed based on:
+
 ✔️ Root Mean Squared Error (RMSE)
+
 ✔️ Feature Importance Analysis
 
 
