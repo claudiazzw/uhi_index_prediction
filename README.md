@@ -52,7 +52,6 @@ To optimize the performance of the Random Forest model, multiple hyperparameter 
 | Random Forest  | n_estimators=1000, random_state=42 | B01, B06, B08, NDVI, Landsat_LST, lst_anomaly | 0.7489 |
 
 
-
 ## Evaluation Metrics
 The model will be assessed based on:
 
@@ -60,6 +59,16 @@ The model will be assessed based on:
 
 ✔️ Feature Importance Analysis
 
+
+## Data Licensing & Sources
+
+Urban Temperature Data – [Apache 2.0 License](https://github.com/CenterForOpenScience/cos.io/blob/master/LICENSE)
+
+Sentinel-2 Satellite Data – [CC BY-SA 3.0 License](https://creativecommons.org/licenses/by-sa/3.0/igo/)
+
+NYC Building Footprint Data – [Apache 2.0 License](https://github.com/CityOfNewYork/nyc-geo-metadata#Apache-2.0-1-ov-file)
+
+Weather Data – [NYS Mesonet Data Policy](https://nysmesonet.org/documents/NYS_Mesonet_Data_Access_Policy.pdf)
 
 
 
