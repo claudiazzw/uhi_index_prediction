@@ -6,7 +6,7 @@ Applying machine learning to predict urban heat island (UHI) hotspots in NYC and
 ## Tech Stack
 **Programming Language:** Python
 
-**Machine learning frameworks:** Scitkit-Learn
+**Machine learning frameworks:** Scikit-Learn
 
 **Visualization:** 
 
@@ -47,9 +47,9 @@ To optimize the performance of the Random Forest model, multiple hyperparameter 
 
 | Model Used |  Parameters  | Feature Selection | Results |
 |:-----------|:-----------:|---------------------:|------:|
-| Random Forest  | n_estimators=100, random_state=42 | B01, B06, B08, NDVI, Landsat_LST,lst_anomaly | 0.7429 |
-| Random Forest  | n_estimators=500, random_state=42 | B01, B06, B08, NDVI, Landsat_LST,lst_anomaly | 0.7476 |
-| Random Forest  | n_estimators=1000, random_state=42 | B01, B06, B08, NDVI, Landsat_LST,lst_anomaly | 0.7489 |
+| Random Forest  | n_estimators=100, random_state=42 | B01, B06, B08, NDVI, Landsat_LST, lst_anomaly | 0.7429 |
+| Random Forest  | n_estimators=500, random_state=42 | B01, B06, B08, NDVI, Landsat_LST, lst_anomaly | 0.7476 |
+| Random Forest  | n_estimators=1000, random_state=42 | B01, B06, B08, NDVI, Landsat_LST, lst_anomaly | 0.7489 |
 
 
 
