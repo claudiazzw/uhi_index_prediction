@@ -24,7 +24,6 @@ Our goal aligns with the UN Sustainable Development Goals, specifically aiming t
 .
 ├── data                   # Raw datasets (CSV & TIFF formats)
 ├── notebooks              # Jupyter notebooks for exploratory analysis & modeling
-├── src                    # Source code for data preprocessing & ML model development
 ├── models                 # Saved trained models and weights
 ├── miscellaneous          # Additional resources (e.g., Submission templates)
 └── README.md              # Project documentation
