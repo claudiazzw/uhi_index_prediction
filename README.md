@@ -19,6 +19,7 @@ Applying machine learning to predict urban heat island (UHI) hotspots in NYC and
     ├── src                    # Source code for data processing & ML models
     ├── models                 # Stores trained models and weights
     └── README.md              # Project documentation
+    |__ Miscellaneous          # Additional template files (ex. Submission_template.csv)
     
 
 ## Dataset Used
