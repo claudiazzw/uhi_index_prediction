@@ -1,0 +1,23 @@
+# 🛠️ Core Data Processing Libraries
+numpy                # Numerical computing & array manipulation
+pandas               # Data analysis & manipulation
+scipy                # Scientific computing & optimization
+scikit-learn         # Machine learning algorithms & preprocessing
+imbalanced-learn     # Handling imbalanced datasets
+
+# 🌍 Geospatial Analysis & Mapping
+rioxarray            # Geospatial data arrays & manipulation
+geopandas            # Geospatial data processing & visualization
+rasterio             # Reading & writing geospatial raster data
+pyproj               # Coordinate system transformations
+pystac-client        # Accessing SpatioTemporal Asset Catalogs (STAC)
+planetary-computer   # Access Microsoft's Planetary Computer datasets
+pystac               # Python STAC API
+
+# 📊 Data Visualization
+matplotlib           # Basic plotting and visualizations
+seaborn              # Statistical data visualization
+
+# 🤖 Machine Learning & Optimization
+xgboost              # Extreme Gradient Boosting models
+optuna               # Automated hyperparameter tuning & optimization
