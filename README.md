@@ -18,8 +18,8 @@ Applying machine learning to predict urban heat island (UHI) hotspots in NYC and
     ├── notebooks              # Jupyter notebooks for EDA & modeling
     ├── src                    # Source code for data processing & ML models
     ├── models                 # Stores trained models and weights
+    ├── Miscellaneous          # Additional template files (ex. Submission_template.csv)
     └── README.md              # Project documentation
-    |__ Miscellaneous          # Additional template files (ex. Submission_template.csv)
     
 
 ## Dataset Used
