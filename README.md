@@ -26,7 +26,9 @@ Our goal aligns with the UN Sustainable Development Goals, specifically aiming t
 ├── notebooks              # Jupyter notebooks for exploratory analysis & modeling
 ├── models                 # Saved trained models and weights
 ├── miscellaneous          # Additional resources (e.g., Submission templates)
+├── requirements.txt       # Package Versions
 └── README.md              # Project documentation
+
 ```
 
 ---
