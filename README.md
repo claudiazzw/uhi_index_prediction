@@ -87,6 +87,16 @@ Our final model evaluation included:
 
 ## 🔗 Quick Start & Usage
 
+🛠️ Installation
+
+pip install -r requirements.txt
+
+🚦 Running Notebooks
+
+Navigate to the notebooks directory and launch Jupyter:
+
+jupyter notebook
+
 Take a look at the notebooks section for example usage of the dataset and models, and try swapping the models and and datas listed in the corresponding section to see additional results. 
 
 Explore our preprocessing, feature engineering, and modeling notebooks directly!
