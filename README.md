@@ -83,31 +83,12 @@ We rigorously tested multiple hyperparameter settings using cross-validation:
 Our final model evaluation included:
 
 - **Root Mean Squared Error (RMSE)**
-- **Mean Absolute Error (MAE)**
-- **Feature Importance Analysis (SHAP values)**
-
----
-
-## 📜 Data Sources & Licensing
-- **Urban Temperature Data** ([Apache 2.0 License](https://github.com/CenterForOpenScience/cos.io/blob/master/LICENSE))
-- **Sentinel-2 Satellite Data** ([CC BY-SA 3.0 License](https://creativecommons.org/licenses/by-sa/3.0/igo/))
-- **NYC Building Footprint Data** ([Apache 2.0 License](https://github.com/CityOfNewYork/nyc-geo-metadata#Apache-2.0-1-ov-file))
-- **Weather Data** ([NYS Mesonet Data Policy](https://nysmesonet.org/documents/NYS_Mesonet_Data_Access_Policy.pdf))
 
 ---
 
 ## 🔗 Quick Start & Usage
 
-### 🛠️ Installation
-```bash
-pip install -r requirements.txt
-```
-
-### 🚦 Running Notebooks
-Navigate to the `notebooks` directory and launch Jupyter:
-```bash
-jupyter notebook
-```
+Take a look at the notebooks section for example usage of the dataset and models, and try swapping the models and and datas listed in the corresponding section to see additional results. 
 
 Explore our preprocessing, feature engineering, and modeling notebooks directly!
 
@@ -120,5 +101,14 @@ We're excited to collaborate and exchange ideas:
 
 Together, let's leverage AI to tackle urban heat islands and build a sustainable future! 🌍🌳✨
 
+---
+
+## 📜 Data Sources & Licensing
+- **Urban Temperature Data** ([Apache 2.0 License](https://github.com/CenterForOpenScience/cos.io/blob/master/LICENSE))
+- **Sentinel-2 Satellite Data** ([CC BY-SA 3.0 License](https://creativecommons.org/licenses/by-sa/3.0/igo/))
+- **NYC Building Footprint Data** ([Apache 2.0 License](https://github.com/CityOfNewYork/nyc-geo-metadata#Apache-2.0-1-ov-file))
+- **Weather Data** ([NYS Mesonet Data Policy](https://nysmesonet.org/documents/NYS_Mesonet_Data_Access_Policy.pdf))
+
+---
 
 
