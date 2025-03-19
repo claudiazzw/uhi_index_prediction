@@ -96,7 +96,7 @@ Explore our preprocessing, feature engineering, and modeling notebooks directly!
 ## 🤝 Connect With Us
 We're excited to collaborate and exchange ideas:
 - **Yixin Huang**: [LinkedIn](https://www.linkedin.com/in/yixin-huang-91b7781aa/)
-- **Claudia Wu**: [LinkedIn](https://www.linkedin.com/in/zhenzhen-wu-48925922b/)
+- **Zhenzhen Wu**: [LinkedIn](https://www.linkedin.com/in/zhenzhen-wu-48925922b/)
 
 Together, let's leverage AI to tackle urban heat islands and build a sustainable future! 🌍🌳✨
 
