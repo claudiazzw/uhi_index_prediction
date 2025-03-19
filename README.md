@@ -72,6 +72,26 @@ Our goal aligns with the UN Sustainable Development Goals, specifically aiming t
   - Optimized tree-based method.
   - Efficient handling of sparse data and robust regularization to prevent overfitting.
 
+- **Multi-Layer Perceptrons (MLPs)**
+  - Implemented deep feedforward networks with varying depths and widths.
+  - Despite extensive hyperparameter tuning (e.g., layer sizes, dropout rates, learning rates), MLPs underperformed.
+  - The limited dataset size and lack of sufficient training examples made high-capacity networks ineffective.
+
+- **Convolutional Neural Networks (CNNs)** 🛰️:
+  - Treated hexagonal grids as structured data for spatial feature extraction.
+  - The irregular geometry of hex grids and dataset sparsity introduced challenges.
+  - Standard CNNs struggled without extensive preprocessing or graph-based modeling techniques.
+
+- **Long Short-Term Memory (LSTM) Networks and Temporal Models** ⏳:
+  - Explored for potential sequential dependencies in spatial grids ordered by proximity.
+  - Did not yield substantial improvements due to the dataset's lack of temporal dynamics (single-day snapshot).
+
+- **Vision Transformers (ViT)** 🎭 :
+  - Conducted preliminary experiments using ViTs with grid structures as image-like inputs.
+  - The small dataset size and high sparsity led to poor generalization and unstable training.
+    Required significantly more data and specialized augmentation techniques to be effective.
+
+    
 ### 4️⃣ **Hyperparameter Tuning & Model Selection**
 We rigorously tested multiple hyperparameter settings using cross-validation:
 
