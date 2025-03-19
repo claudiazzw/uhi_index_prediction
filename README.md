@@ -52,6 +52,7 @@ Our goal aligns with the UN Sustainable Development Goals, specifically aiming t
 
 ### 1️⃣ **Exploratory Data Analysis (EDA)**
 - **Correlation Analysis & Spatial Visualization**: Heatmaps to detect feature relationships and spatial distributions of UHI intensity.
+![image](https://github.com/user-attachments/assets/11401b12-cdcf-4702-986d-015c2093c8e9)
 
 ### 2️⃣ **Feature Engineering**
 - **Normalization (StandardScaler):** Ensured consistent scales across all temperature and spectral data.
