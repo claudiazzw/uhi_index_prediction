@@ -11,9 +11,9 @@ Our goal aligns with the UN Sustainable Development Goals, specifically aiming t
 ## 🔧 Tech Stack
 
 - **Language:** Python 🐍
-- **Data Processing:** Geopandas, Rasterio
-- **Machine Learning:** Scikit-Learn
-- **Visualization:** Seaborn, Pandas, Matplotlib
+- **Data Processing:** Geopandas, Rasterio, SciPy, Shapely, Pyproj
+- **Machine Learning:** Scikit-Learn, KDTree, XGBoost, Random Forest
+- **Visualization:** Seaborn, Pandas, Matplotlib, GeoPandas plot
 - **Interactive Exploration:** Jupyter Notebooks 📓
 
 ---
