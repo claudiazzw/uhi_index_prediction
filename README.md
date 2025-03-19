@@ -60,6 +60,8 @@ Our goal aligns with the UN Sustainable Development Goals, specifically aiming t
   - **NVBI (Normalized Vegetation Built-up Index):** Combined Sentinel-2 bands (B01, B06, B08) and Landsat LST to quantify vegetation versus built-up area impact.
   - **NDVI (Vegetation Cover Index):** Indicates vegetation density and cooling potential.
   - **LST Anomalies:** Identified regions experiencing unusual heat relative to baseline.
+  - **Building Density:** Calculates the number of buildings of each geographical point within a predefined radius
+  - **Temperature Gradent:** Measures the intensity of heat retention at a given location with the difference between the land surface temperature and the air temperature at the surface.
 
 ### 3️⃣ **Machine Learning Models**
 - **Random Forest (final model)** 🌳:
@@ -77,14 +79,17 @@ We rigorously tested multiple hyperparameter settings using cross-validation:
 |-----------------|--------------------------------------------|-----------------------------------------------------------|---------------------|
 | Random Forest 🌳 | n_estimators=100, random_state=42          | B01, B06, B08, NDVI, Landsat_LST, lst_anomaly             | 0.7429              |
 | Random Forest 🌳 | n_estimators=500, random_state=42          | B01, B06, B08, NDVI, Landsat_LST, lst_anomaly             | 0.7476              |
-| Random Forest 🌳 | **n_estimators=1000, random_state=42** ✅  | **B01, B06, B08, NDVI, Landsat_LST, lst_anomaly** ✅       | **0.7489** ✅       |
+| Random Forest 🌳 | n_estimators=1000, random_state=42   | B01, B06, B08, NDVI, Landsat_LST, lst_anomaly       | 0.7489       |
+| Random Forest 🌳 | n_estimators=500, random_state=42   | B01, B04, B08, NDVI, Landsat_LST, lst_anomaly, building_density      | 0.7816      |
+| Random Forest 🌳 | n_estimators=500, random_state=42   | B01, B04, B08, NDVI, Landsat_LST, lst_anomaly, building_density, temp_gradient       | 0.8037       |
 
 ---
 
 ## 📈 Evaluation Metrics
 Our final model evaluation included:
 
-- **Root Mean Squared Error (RMSE)**
+- **R-squared**
+- **Pearson Correlation Coefficient**
 
 ---
 
