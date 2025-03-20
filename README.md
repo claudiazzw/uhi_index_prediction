@@ -61,7 +61,7 @@ Our goal aligns with the UN Sustainable Development Goals, specifically aiming t
   - **NDVI (Vegetation Cover Index):** Indicates vegetation density and cooling potential.
   - **LST Anomalies:** Identified regions experiencing unusual heat relative to baseline.
   - **Building Density:** Calculates the number of buildings of each geographical point within a predefined radius
-  - **Temperature Gradent:** Measures the intensity of heat retention at a given location with the difference between the land surface temperature and the air temperature at the surface.
+  - **Temperature Gradient:** Measures the intensity of heat retention at a given location with the difference between the land surface temperature and the air temperature at the surface.
 
 ### 3️⃣ **Machine Learning Models**
 - **Random Forest (final model)** 🌳:
